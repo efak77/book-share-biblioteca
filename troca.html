@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>TROCA DE LIVROS E DOAÇÕES</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+</body>
+
+<div class="menu">
+    <ul>
+        <li><img src="imagens/LogoCinza.png"></li>
+        <li><a href="perfil.html">PERFIL</a></li>
+        <li><a href="troca.html">TROCA</a></li>
+        <li><a href="catalogo.html">CATALÓGO</a></li>
+        <li><a href="resenhas.html">RESENHAS</a></li>
+    </ul>
+</div>
+<div id="titulo"> TROCA DE LIVROS E DOAÇÕES</div><br><Br>
+<label for="nome">NOME DO LIVRO?</label><br>
+<input type="text" id="nome" name="nome" required><br><br>
+<label for="email">ESTADO DO LIVRO?</label><br>
+<input type="email" id="estado" name="email" required><br><br>
+<label for="nome">DESEJA FAZER UMA TROCA OU UMA DOAÇÃO?</label><br>
+<input type="text" id="nome" name="nome" required><br><br>
+<label for="nome">ENVIE UMA FOTO DO LIVRO:</label><br>
+<form action="/seu_endpoint_do_servidor" method="post" enctype="multipart/form-data"><br>
+    <input type="file" name="foto" id="foto" accept="image/*"><br>
+</form>
+</body>
+
+</html>
+
+
+<button onclick="enviarFormulario()">Enviar</button>
+
+</body>
+
+</html>
