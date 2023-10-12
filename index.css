@@ -1,0 +1,44 @@
+body {
+    background-color: red;
+    font-family: cursive;
+    text-align: center;
+}
+
+#retangulo {
+    height: 50px;
+    width: 200px;
+    background-color: yellow;
+    display: inline-block;
+}
+
+#titulo {
+    color: yellow;
+}
+
+
+.menu {
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu ul {
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
